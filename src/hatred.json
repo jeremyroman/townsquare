@@ -206,6 +206,15 @@
     ]
   },
   {
+    "id": "Baron",
+    "hatred": [
+      {
+        "id": "Heretic",
+        "reason": "The Baron might only add 1 Outsider, not 2."
+      }
+    ]
+  },
+  {
     "id": "Marionette",
     "hatred": [
       {
@@ -218,7 +227,7 @@
       },
       {
         "id": "Snitch",
-        "reason": "The Marionette learns 3 not in-play characters when the Snitch dies, instead of at the start of the game."
+        "reason": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead."
       },
       {
         "id": "Balloonist",
@@ -357,6 +366,10 @@
       {
         "id": "Slayer",
         "reason": "If the Slayer slays the Lleech's host, the host dies. "
+      },
+      {
+        "id": "Heretic",
+        "reason": "If the Lleech has poisoned the Heretic then the Lleech dies, the Heretic remains poisoned."
       }
     ]
   }
